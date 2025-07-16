@@ -377,8 +377,7 @@ async function submitFeedbackForm() {
     
     const feedbackData = {
         drink_id: drinkId,
-        rating: parseInt(rating),
-        comment: privateText || null
+        rating: parseInt(rating)
     };
     
     try {
